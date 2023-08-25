@@ -6,14 +6,31 @@
 }
 
 .container {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-size: 2rem;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: cadetblue;
 }
 
-.smallContainer{
-    border: 2px solid red;
+.smallContainer {
+    min-width: 35%;
+}
+
+.header {
+    background-color: teal;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.taskListContainer {
+    background: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
