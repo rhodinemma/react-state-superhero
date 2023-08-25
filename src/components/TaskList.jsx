@@ -5,27 +5,28 @@ import {
   MdOutlineRadioButtonChecked,
   MdOutlineSaveAs,
 } from "react-icons/md";
+import Icon from "./Icon";
 
 const TaskList = () => {
   return (
     <div className="taskListContainer">
       <div className="task">
-        <MdOutlineRadioButtonUnchecked />
+        <Icon IconName={MdOutlineRadioButtonUnchecked} />
         <p>Sample task</p>
-        <FiEdit3 />
-        <CiTrash />
+        <Icon IconName={FiEdit3} />
+        <Icon IconName={CiTrash} />
       </div>
       <div className="task">
-        <MdOutlineRadioButtonUnchecked />
+        <Icon IconName={MdOutlineRadioButtonUnchecked} />
         <p>Sample task</p>
-        <FiEdit3 />
-        <CiTrash />
+        <Icon IconName={FiEdit3} />
+        <Icon IconName={CiTrash} />
       </div>
       <div className="task">
-        <MdOutlineRadioButtonUnchecked />
+        <Icon IconName={MdOutlineRadioButtonUnchecked} />
         <p>Sample task</p>
-        <FiEdit3 />
-        <CiTrash />
+        <Icon IconName={FiEdit3} />
+        <Icon IconName={CiTrash} />
       </div>
     </div>
   );
